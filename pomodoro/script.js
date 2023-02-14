@@ -192,9 +192,7 @@ class App extends React.Component {
         ref: audio => {
           this.beepSound = audio;
         },
-        src: "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav" })));
-
-
+        src: "bell.mp3" })));
 
   }}
 
@@ -233,11 +231,7 @@ class SetTimerLength extends React.Component {
 
       React.createElement("i", { id: this.props.decTimerId, className: "fa fa-arrow-down" })))));
 
-
-
-
   }}
-
 
 class Timer extends React.Component {
   constructor(props) {
@@ -272,10 +266,6 @@ class Timer extends React.Component {
         } }, /*#__PURE__*/
 
       React.createElement("i", { className: "fa fa-refresh", "aria-hidden": "true" }))))));
-
-
-
-
 
   }}
 
